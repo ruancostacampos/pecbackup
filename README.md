@@ -3,7 +3,7 @@ Script para fazer o backup do PEC local e enviá-lo para o mega.io
 # Requisitos
 1 - Ter o mega cmd logado na máquina (usuário e root)<br>
 2 - Ter uma pasta chamada backup na raiz do MEGA<br>
-3 - Os dois arquivos sh na pasta /home/seu-usuario/<br>
+3 - Os arquivos ***backupesus.sh*** e ***sendtocloud.sh*** na pasta /home/seu-usuario/<br>
 4 - Pasta com nome backup no diretório /home/seu-usuario/, <br>
 ficando /home/seu-usuario/backup.<br>
 # Instruções
