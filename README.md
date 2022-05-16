@@ -8,11 +8,11 @@ Script para fazer o backup do PEC local e enviá-lo para o mega.io
 ficando /home/seu-usuario/backup.<br>
 # Instruções
 Após cumprir os requisitos você deve editar o arquivo **backupesus.sh** <br>
-com as informações referentes a sua configuração. (Linha 14 e 20) <br>
+com as informações referentes a sua configuração. (Linha 8 e 14) <br>
 Ex: 
 ```
-14 - USER="seu-usuario"
-20 - export PGPASSWORD=senhadobd
+8 - USER="seu-usuario"
+14 - export PGPASSWORD=senhadobd
 ```
 Por padrão a senha do PEC vem como esus, você preencherá de acordo com <br>
 a sua.
