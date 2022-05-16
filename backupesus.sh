@@ -1,12 +1,6 @@
 #!/bin/bash
 
-#######################################
-# Criado por Ruan Costa Campos        #
-# Email: ruancosta9797@gmail.com      #
-# Tel: (77)991882211                  #
-# CPD - Secretaria Municipal de Saúde #
-#          Poções - Ba                #
-#######################################
+# script de backup local criado por Jackson Lira
 
 echo "BACKUP e-ESUS AB PEC"
 echo "Criando backup..."
