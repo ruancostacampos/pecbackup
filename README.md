@@ -17,7 +17,7 @@ Ex:
 Por padrão a senha do PEC vem como esus, você preencherá de acordo com <br>
 a sua.
 
-(Na linha 23 você pode configurar os parâmetros do **sendtocloud**, que <br>
+(Na linha 17 você pode configurar os parâmetros do **sendtocloud**, que <br>
 são explanados aqui abaixo.
 
 # backupesus.sh
