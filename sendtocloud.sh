@@ -1,6 +1,3 @@
-#! /bin/bash
-
-
 #######################################
 # Criado por Ruan Costa Campos        #
 # Email: ruancosta9797@gmail.com      #
@@ -26,13 +23,17 @@ function dateDiff(){
   echo $datediff;
 }
 
+echo "Verificando sessão [Mega.nz]...";
+
+mega-whoami
+
 echo "Enviando arquivo para Cloud [Mega.nz]...";
-mega-put $1 backup
+mega-put $1 BACKUP
 echo "Arquivo enviado para [Mega.nz] Com sucesso.";
 
 echo "Verificando quantidade de arquivos no Cloud [Mega.nz]...";
 
-IFS=$'\n' MEGA_LISTA_ARQUIVOS=($(mega-ls backup))
+IFS=$'\n' MEGA_LISTA_ARQUIVOS=($(mega-ls BACKUP))
 
 
 DATA_ATUAL=$(date "+%Y-%m-%d %H:%M");
@@ -68,4 +69,3 @@ do
   fi
         
 done
-
